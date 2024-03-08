@@ -1,0 +1,24 @@
+app:
+  logFile: log/gin.log
+  httpPort: 8080
+  webSocketPort: 8089
+  rpcPort: 9001
+  httpUrl: 127.0.0.1:8080
+  webSocketUrl:  127.0.0.1:8089
+
+
+redis:
+  host: "127.0.0.1"
+  port: 6379
+  db: 0
+  user: 
+  pass: 
+  poolSize: 30
+  minIdleConns: 30
+
+database:
+  name: live_chat
+  host: "127.0.0.1"
+  port: 3306
+  user: 
+  pass: 
